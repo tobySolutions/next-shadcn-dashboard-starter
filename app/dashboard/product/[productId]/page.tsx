@@ -3,6 +3,8 @@ import PageContainer from '@/components/layout/page-container';
 import { Suspense } from 'react';
 import ProductViewPage from '../_components/product-view-page';
 
+export const runtime = 'edge';
+
 export const metadata = {
   title: 'Dashboard : Product View'
 };

@@ -1,5 +1,7 @@
 import EmployeeViewPage from '../_components/employee-view-page';
 
+export const runtime = 'edge';
+
 export const metadata = {
   title: 'Dashboard : Employee View'
 };

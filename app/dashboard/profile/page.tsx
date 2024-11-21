@@ -1,6 +1,8 @@
 import { SearchParams } from 'nuqs/parsers';
 import ProfileViewPage from './_components/profile-view-page';
 
+export const runtime = 'edge';
+
 type pageProps = {
   searchParams: SearchParams;
 };

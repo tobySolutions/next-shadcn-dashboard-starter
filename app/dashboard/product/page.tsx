@@ -12,6 +12,8 @@ import { Suspense } from 'react';
 import ProductListingPage from './_components/product-listing';
 import ProductTableAction from './_components/product-tables/product-table-action';
 
+export const runtime = 'edge';
+
 export const metadata = {
   title: 'Dashboard: Products'
 };
