@@ -4,6 +4,8 @@ import UserAuthForm from './user-auth-form';
 import { buttonVariants } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 
+export const runtime = 'edge';
+
 export const metadata: Metadata = {
   title: 'Authentication',
   description: 'Authentication forms built using the components.'

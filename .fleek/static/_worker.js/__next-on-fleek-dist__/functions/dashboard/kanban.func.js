@@ -466,7 +466,7 @@ var stdin_default = ((self, globalThis2, global) => {
             '174',
             'static/chunks/174-a9cc57459f0c4a6c.js',
             '931',
-            'static/chunks/app/(auth)/(signin)/page-10d08de474955181.js'
+            'static/chunks/app/(auth)/(signin)/page-b84ddde1602c7053.js'
           ],
           async: false
         },
@@ -486,7 +486,7 @@ var stdin_default = ((self, globalThis2, global) => {
             '174',
             'static/chunks/174-a9cc57459f0c4a6c.js',
             '931',
-            'static/chunks/app/(auth)/(signin)/page-10d08de474955181.js'
+            'static/chunks/app/(auth)/(signin)/page-b84ddde1602c7053.js'
           ],
           async: false
         },
@@ -506,7 +506,7 @@ var stdin_default = ((self, globalThis2, global) => {
             '174',
             'static/chunks/174-a9cc57459f0c4a6c.js',
             '931',
-            'static/chunks/app/(auth)/(signin)/page-10d08de474955181.js'
+            'static/chunks/app/(auth)/(signin)/page-b84ddde1602c7053.js'
           ],
           async: false
         },
@@ -592,54 +592,8 @@ var stdin_default = ((self, globalThis2, global) => {
           ],
           async: false
         },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/kanban/_components/kanban-board.tsx':
-        {
-          id: 23494,
-          name: '*',
-          chunks: [
-            '310',
-            'static/chunks/0e5ce63c-1d5167ad4725b442.js',
-            '795',
-            'static/chunks/795-32b0829921a59dc6.js',
-            '366',
-            'static/chunks/366-6ea39c91cba4b8a5.js',
-            '208',
-            'static/chunks/208-8c4e6360da9f54ce.js',
-            '243',
-            'static/chunks/243-726c9e9c5a3e181a.js',
-            '776',
-            'static/chunks/776-732dc6a04dfe4626.js',
-            '953',
-            'static/chunks/953-949abbd4d5446f3d.js',
-            '166',
-            'static/chunks/app/dashboard/kanban/page-4eff76f11999de21.js'
-          ],
-          async: false
-        },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/kanban/_components/new-task-dialog.tsx':
-        {
-          id: 10854,
-          name: '*',
-          chunks: [
-            '310',
-            'static/chunks/0e5ce63c-1d5167ad4725b442.js',
-            '795',
-            'static/chunks/795-32b0829921a59dc6.js',
-            '366',
-            'static/chunks/366-6ea39c91cba4b8a5.js',
-            '208',
-            'static/chunks/208-8c4e6360da9f54ce.js',
-            '243',
-            'static/chunks/243-726c9e9c5a3e181a.js',
-            '776',
-            'static/chunks/776-732dc6a04dfe4626.js',
-            '953',
-            'static/chunks/953-949abbd4d5446f3d.js',
-            '166',
-            'static/chunks/app/dashboard/kanban/page-4eff76f11999de21.js'
-          ],
-          async: false
-        },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/employee/_components/employee-form.tsx':
+        { id: 35615, name: '*', chunks: [], async: false },
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/components/ui/scroll-area.tsx':
         {
           id: 94880,
@@ -856,6 +810,58 @@ var stdin_default = ((self, globalThis2, global) => {
           ],
           async: false
         },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/kanban/_components/kanban-board.tsx':
+        {
+          id: 23494,
+          name: '*',
+          chunks: [
+            '310',
+            'static/chunks/0e5ce63c-1d5167ad4725b442.js',
+            '795',
+            'static/chunks/795-32b0829921a59dc6.js',
+            '366',
+            'static/chunks/366-6ea39c91cba4b8a5.js',
+            '208',
+            'static/chunks/208-8c4e6360da9f54ce.js',
+            '243',
+            'static/chunks/243-726c9e9c5a3e181a.js',
+            '776',
+            'static/chunks/776-732dc6a04dfe4626.js',
+            '953',
+            'static/chunks/953-949abbd4d5446f3d.js',
+            '166',
+            'static/chunks/app/dashboard/kanban/page-4eff76f11999de21.js'
+          ],
+          async: false
+        },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/kanban/_components/new-task-dialog.tsx':
+        {
+          id: 10854,
+          name: '*',
+          chunks: [
+            '310',
+            'static/chunks/0e5ce63c-1d5167ad4725b442.js',
+            '795',
+            'static/chunks/795-32b0829921a59dc6.js',
+            '366',
+            'static/chunks/366-6ea39c91cba4b8a5.js',
+            '208',
+            'static/chunks/208-8c4e6360da9f54ce.js',
+            '243',
+            'static/chunks/243-726c9e9c5a3e181a.js',
+            '776',
+            'static/chunks/776-732dc6a04dfe4626.js',
+            '953',
+            'static/chunks/953-949abbd4d5446f3d.js',
+            '166',
+            'static/chunks/app/dashboard/kanban/page-4eff76f11999de21.js'
+          ],
+          async: false
+        },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/product/_components/product-form.tsx':
+        { id: 34332, name: '*', chunks: [], async: false },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/profile/_components/profile-create-form.tsx':
+        { id: 39589, name: '*', chunks: [], async: false },
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/overview/_components/area-graph.tsx':
         { id: 87621, name: '*', chunks: [], async: false },
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/overview/_components/bar-graph.tsx':
@@ -870,18 +876,12 @@ var stdin_default = ((self, globalThis2, global) => {
         { id: 85273, name: '*', chunks: [], async: false },
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/employee/_components/employee-tables/index.tsx':
         { id: 49221, name: '*', chunks: [], async: false },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/profile/_components/profile-create-form.tsx':
-        { id: 39589, name: '*', chunks: [], async: false },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/product/_components/product-form.tsx':
-        { id: 34332, name: '*', chunks: [], async: false },
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/product/_components/product-tables/columns.tsx':
         { id: 3846, name: '*', chunks: [], async: false },
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/product/_components/product-tables/product-table-action.tsx':
         { id: 29119, name: '*', chunks: [], async: false },
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/components/ui/table/data-table.tsx':
-        { id: 83265, name: '*', chunks: [], async: false },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/employee/_components/employee-form.tsx':
-        { id: 35615, name: '*', chunks: [], async: false }
+        { id: 83265, name: '*', chunks: [], async: false }
     },
     entryCSSFiles: {
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/': [],
@@ -4084,7 +4084,7 @@ var stdin_default = ((self, globalThis2, global) => {
     {
       2067: __chunk_2067,
       26195: __chunk_26195,
-      86886: (e, t, r) => {
+      89241: (e, t, r) => {
         'use strict';
         r.r(t), r.d(t, { ComponentMod: () => T, default: () => O });
         var n,
@@ -4425,7 +4425,7 @@ var stdin_default = ((self, globalThis2, global) => {
               configFileName: 'next.config.js',
               transpilePackages: ['geist']
             },
-            buildId: 'tKSsSaHTcbfG6ibFJxxX0',
+            buildId: 'zJyc5dDhlSh4bJz3AM9bB',
             nextFontManifest: k,
             incrementalCacheHandler: null,
             interceptionRouteRewrites: N
@@ -4590,8 +4590,8 @@ var stdin_default = ((self, globalThis2, global) => {
           };
         }
         let F = _(1),
-          L = _(-1);
-        function z(e10) {
+          z = _(-1);
+        function L(e10) {
           if (!e10) return false;
           let { KeyboardEvent: t10 } = D(e10.target);
           return t10 && e10 instanceof t10;
@@ -5199,7 +5199,7 @@ var stdin_default = ((self, globalThis2, global) => {
             r2 && ev(r2), t10(G);
           }
           handleKeyDown(e10) {
-            if (z(e10)) {
+            if (L(e10)) {
               let { active: t10, context: r2, options: n2 } = this.props,
                 {
                   keyboardCodes: a2 = eS,
@@ -5224,7 +5224,7 @@ var stdin_default = ((self, globalThis2, global) => {
                 currentCoordinates: c2
               });
               if (d2) {
-                let t11 = L(d2, c2),
+                let t11 = z(d2, c2),
                   n3 = { x: 0, y: 0 },
                   { scrollableAncestors: a3 } = r2.current;
                 for (let r3 of a3) {
@@ -5319,7 +5319,7 @@ var stdin_default = ((self, globalThis2, global) => {
                     break;
                   }
                 }
-                this.handleMove(e10, F(L(d2, this.referenceCoordinates), n3));
+                this.handleMove(e10, F(z(d2, this.referenceCoordinates), n3));
               }
             }
           }
@@ -5470,7 +5470,7 @@ var stdin_default = ((self, globalThis2, global) => {
               } = a2;
             if (!n2) return;
             let o2 = null != (t10 = U(e10)) ? t10 : G,
-              s2 = L(n2, o2);
+              s2 = z(n2, o2);
             if (!r2 && i2) {
               if (ek(i2)) {
                 if (null != i2.tolerance && ew(s2, i2.tolerance))
@@ -5593,14 +5593,14 @@ var stdin_default = ((self, globalThis2, global) => {
         })(f || (f = {})),
           ((p || (p = {})).Optimized = 'optimized');
         let eF = /* @__PURE__ */ new Map();
-        function eL(e10, t10) {
+        function ez(e10, t10) {
           return O(
             (r2) =>
               e10 ? r2 || ('function' == typeof t10 ? t10(e10) : e10) : null,
             [t10, e10]
           );
         }
-        function ez(e10) {
+        function eL(e10) {
           let { callback: t10, disabled: r2 } = e10,
             n2 = R(t10),
             a2 = (0, g.useMemo)(() => {
@@ -5671,7 +5671,7 @@ var stdin_default = ((self, globalThis2, global) => {
                   }
               }
             }),
-            i2 = ez({ callback: a2 });
+            i2 = eL({ callback: a2 });
           return (
             N(() => {
               a2(),
@@ -5701,7 +5701,7 @@ var stdin_default = ((self, globalThis2, global) => {
               t11 && !r2.current && (r2.current = e10),
                 !t11 && r2.current && (r2.current = null);
             }, [e10]),
-            r2.current ? L(e10, r2.current) : G
+            r2.current ? z(e10, r2.current) : G
           );
         }
         function eV(e10) {
@@ -5889,7 +5889,7 @@ var stdin_default = ((self, globalThis2, global) => {
           return (
             (0, g.useEffect)(() => {
               if (!t10 && !n2 && l2 && null != i2) {
-                if (!z(l2) || document.activeElement === l2.target) return;
+                if (!L(l2) || document.activeElement === l2.target) return;
                 let e11 = a2.get(i2);
                 if (!e11) return;
                 let { activatorNode: t11, node: r3 } = e11;
@@ -5957,8 +5957,8 @@ var stdin_default = ((self, globalThis2, global) => {
                   t11
                 ];
               })(),
-              [L2, z2] = (0, g.useState)(m.Uninitialized),
-              B2 = L2 === m.Initialized,
+              [z2, L2] = (0, g.useState)(m.Uninitialized),
+              B2 = z2 === m.Initialized,
               {
                 draggable: { active: W2, nodes: $2, translate: V2 },
                 droppable: { containers: Z2 }
@@ -6126,7 +6126,7 @@ var stdin_default = ((self, globalThis2, global) => {
                   ? { ...h2, enabled: r3 }
                   : { enabled: r3 };
               })(),
-              ej2 = eL(eD2, eb2.draggable.measure);
+              ej2 = ez(eD2, eb2.draggable.measure);
             !(function (e11) {
               let {
                   activeNode: t11,
@@ -6185,7 +6185,7 @@ var stdin_default = ((self, globalThis2, global) => {
               eO2 = (function (e11) {
                 let { measure: t11 } = e11,
                   [r3, n3] = (0, g.useState)(null),
-                  a3 = ez({
+                  a3 = eL({
                     callback: (0, g.useCallback)(
                       (e12) => {
                         for (let { target: r4 } of e12)
@@ -6222,7 +6222,7 @@ var stdin_default = ((self, globalThis2, global) => {
               eP2 = B2 ? (null != (n2 = eO2.rect) ? n2 : ek2) : null,
               eA2 = !!(eO2.nodeRef.current && eO2.rect),
               eI2 = (function (e11) {
-                let t11 = eL(e11);
+                let t11 = ez(e11);
                 return et(e11, t11);
               })(eA2 ? null : ek2),
               eU2 = eV(eM2 ? D(eM2) : null),
@@ -6257,7 +6257,7 @@ var stdin_default = ((self, globalThis2, global) => {
                       ? e11.map((e12) => (ep(e12) ? n3 : new ey(t11(e12), e12)))
                       : eZ;
                   }, eZ),
-                  i2 = ez({ callback: l2 });
+                  i2 = eL({ callback: l2 });
                 return (
                   e11.length > 0 && a3 === eZ && l2(),
                   N(() => {
@@ -6392,7 +6392,7 @@ var stdin_default = ((self, globalThis2, global) => {
                           a4 = { active: { id: t12, data: r4.data, rect: X2 } };
                         (0, v.unstable_batchedUpdates)(() => {
                           null == n4 || n4(a4),
-                            z2(m.Initializing),
+                            L2(m.Initializing),
                             R2({
                               type: l.DragStart,
                               initialCoordinates: e12,
@@ -6433,7 +6433,7 @@ var stdin_default = ((self, globalThis2, global) => {
                       (J2.current = null),
                         (0, v.unstable_batchedUpdates)(() => {
                           R2({ type: e12 }),
-                            z2(m.Uninitialized),
+                            L2(m.Uninitialized),
                             tl2(null),
                             en2(null),
                             ei2(null);
@@ -6499,8 +6499,8 @@ var stdin_default = ((self, globalThis2, global) => {
               })
             ),
               N(() => {
-                ek2 && L2 === m.Initializing && z2(m.Initialized);
-              }, [ek2, L2]),
+                ek2 && z2 === m.Initializing && L2(m.Initialized);
+              }, [ek2, z2]),
               (0, g.useEffect)(() => {
                 let { onDragMove: e11 } = ec2.current,
                   {
@@ -6857,7 +6857,7 @@ var stdin_default = ((self, globalThis2, global) => {
           );
         }
         let ta = { position: 'fixed', touchAction: 'none' },
-          tl = (e10) => (z(e10) ? 'transform 250ms ease' : void 0),
+          tl = (e10) => (L(e10) ? 'transform 250ms ease' : void 0),
           ti = (0, g.forwardRef)((e10, t10) => {
             let {
               as: r2,
@@ -6987,7 +6987,7 @@ var stdin_default = ((self, globalThis2, global) => {
                 transform: S2,
                 windowRect: E2
               }),
-              k2 = eL(f2),
+              k2 = ez(f2),
               N2 = (function (e11) {
                 let {
                   config: t11,
@@ -7325,7 +7325,7 @@ var stdin_default = ((self, globalThis2, global) => {
                   timeout: b3
                 } = { ...te, ...a3 },
                 y3 = T(null != v3 ? v3 : n3),
-                x3 = ez({
+                x3 = eL({
                   callback: (0, g.useCallback)(() => {
                     if (!f3.current) {
                       f3.current = true;
@@ -7406,7 +7406,7 @@ var stdin_default = ((self, globalThis2, global) => {
               active: A2,
               activatorEvent: _2,
               activeNodeRect: F2,
-              attributes: L2,
+              attributes: z2,
               setNodeRef: U2,
               listeners: W2,
               isDragging: $2,
@@ -7603,7 +7603,7 @@ var stdin_default = ((self, globalThis2, global) => {
             {
               active: A2,
               activeIndex: h2,
-              attributes: L2,
+              attributes: z2,
               data: C2,
               rect: k2,
               index: S2,
@@ -7624,7 +7624,7 @@ var stdin_default = ((self, globalThis2, global) => {
               transition:
                 ea2 || (er2 && et2.current.newIndex === S2)
                   ? tx
-                  : (!q2 || z(_2)) && f2 && (X2 || en2)
+                  : (!q2 || L(_2)) && f2 && (X2 || en2)
                   ? B.Transition.toString({ ...f2, property: ty })
                   : void 0
             }
@@ -7653,12 +7653,12 @@ var stdin_default = ((self, globalThis2, global) => {
           tI = r(19376),
           t_ = r(56719);
         let tF = 'dismissableLayer.update',
-          tL = (0, g.createContext)({
+          tz = (0, g.createContext)({
             layers: /* @__PURE__ */ new Set(),
             layersWithOutsidePointerEventsDisabled: /* @__PURE__ */ new Set(),
             branches: /* @__PURE__ */ new Set()
           }),
-          tz = (0, g.forwardRef)((e10, t10) => {
+          tL = (0, g.forwardRef)((e10, t10) => {
             var r2;
             let {
                 disableOutsidePointerEvents: a2 = false,
@@ -7669,7 +7669,7 @@ var stdin_default = ((self, globalThis2, global) => {
                 onDismiss: u2,
                 ...c2
               } = e10,
-              d2 = (0, g.useContext)(tL),
+              d2 = (0, g.useContext)(tz),
               [f2, p2] = (0, g.useState)(null),
               m2 =
                 null !== (r2 = null == f2 ? void 0 : f2.ownerDocument) &&
@@ -8288,7 +8288,7 @@ var stdin_default = ((self, globalThis2, global) => {
                     onUnmountAutoFocus: l2
                   },
                   (0, g.createElement)(
-                    tz,
+                    tL,
                     (0, tN.Z)(
                       {
                         role: 'dialog',
@@ -8515,7 +8515,7 @@ var stdin_default = ((self, globalThis2, global) => {
           })
         );
         rF.displayName = rN.displayName;
-        let rL = ({ className: e10, ...t10 }) =>
+        let rz = ({ className: e10, ...t10 }) =>
           (0, h.jsx)('div', {
             className: (0, y.cn)(
               'flex flex-col space-y-2 text-center sm:text-left',
@@ -8523,8 +8523,8 @@ var stdin_default = ((self, globalThis2, global) => {
             ),
             ...t10
           });
-        rL.displayName = 'AlertDialogHeader';
-        let rz = ({ className: e10, ...t10 }) =>
+        rz.displayName = 'AlertDialogHeader';
+        let rL = ({ className: e10, ...t10 }) =>
           (0, h.jsx)('div', {
             className: (0, y.cn)(
               'flex flex-col-reverse sm:flex-row sm:justify-end sm:space-x-2',
@@ -8532,7 +8532,7 @@ var stdin_default = ((self, globalThis2, global) => {
             ),
             ...t10
           });
-        rz.displayName = 'AlertDialogFooter';
+        rL.displayName = 'AlertDialogFooter';
         let rU = g.forwardRef(({ className: e10, ...t10 }, r2) =>
           (0, h.jsx)(rT, {
             ref: r2,
@@ -8643,7 +8643,7 @@ var stdin_default = ((self, globalThis2, global) => {
                 onOpenChange: d2,
                 children: (0, h.jsxs)(rF, {
                   children: [
-                    (0, h.jsxs)(rL, {
+                    (0, h.jsxs)(rz, {
                       children: [
                         (0, h.jsx)(rU, {
                           children: 'Are you sure want to delete column?'
@@ -8654,7 +8654,7 @@ var stdin_default = ((self, globalThis2, global) => {
                         })
                       ]
                     }),
-                    (0, h.jsxs)(rz, {
+                    (0, h.jsxs)(rL, {
                       children: [
                         (0, h.jsx)(rW, { children: 'Cancel' }),
                         (0, h.jsx)(tC.z, {
@@ -9894,7 +9894,7 @@ var stdin_default = ((self, globalThis2, global) => {
     },
     (e) => {
       var t = (t2) => e((e.s = t2));
-      e.O(0, [269, 197, 716, 548, 230, 857], () => t(86886));
+      e.O(0, [269, 197, 716, 548, 230, 857], () => t(89241));
       var r = e.O();
       (globalThis2._ENTRIES =
         'undefined' == typeof globalThis2._ENTRIES ? {} : globalThis2._ENTRIES)[

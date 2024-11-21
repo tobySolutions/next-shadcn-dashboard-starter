@@ -24,6 +24,8 @@ const formSchema = z.object({
 
 type UserFormValue = z.infer<typeof formSchema>;
 
+export const runtime = 'edge';
+
 export default function UserAuthForm() {
   const searchParams = useSearchParams();
   const callbackUrl = searchParams.get('callbackUrl');
@@ -37,6 +39,7 @@ export default function UserAuthForm() {
   });
 
   const onSubmit = async (data: UserFormValue) => {
+    console.log('submitting');
     startTransition(() => {
       signIn('credentials', {
         email: data.email,

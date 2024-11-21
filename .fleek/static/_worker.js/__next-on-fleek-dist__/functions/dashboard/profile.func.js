@@ -472,7 +472,7 @@ var stdin_default = ((self, globalThis2, global) => {
             '174',
             'static/chunks/174-a9cc57459f0c4a6c.js',
             '931',
-            'static/chunks/app/(auth)/(signin)/page-10d08de474955181.js'
+            'static/chunks/app/(auth)/(signin)/page-b84ddde1602c7053.js'
           ],
           async: false
         },
@@ -492,7 +492,7 @@ var stdin_default = ((self, globalThis2, global) => {
             '174',
             'static/chunks/174-a9cc57459f0c4a6c.js',
             '931',
-            'static/chunks/app/(auth)/(signin)/page-10d08de474955181.js'
+            'static/chunks/app/(auth)/(signin)/page-b84ddde1602c7053.js'
           ],
           async: false
         },
@@ -512,7 +512,7 @@ var stdin_default = ((self, globalThis2, global) => {
             '174',
             'static/chunks/174-a9cc57459f0c4a6c.js',
             '931',
-            'static/chunks/app/(auth)/(signin)/page-10d08de474955181.js'
+            'static/chunks/app/(auth)/(signin)/page-b84ddde1602c7053.js'
           ],
           async: false
         },
@@ -598,10 +598,8 @@ var stdin_default = ((self, globalThis2, global) => {
           ],
           async: false
         },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/kanban/_components/kanban-board.tsx':
-        { id: 23494, name: '*', chunks: [], async: false },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/kanban/_components/new-task-dialog.tsx':
-        { id: 10854, name: '*', chunks: [], async: false },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/employee/_components/employee-form.tsx':
+        { id: 35615, name: '*', chunks: [], async: false },
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/components/ui/scroll-area.tsx':
         {
           id: 94880,
@@ -818,20 +816,12 @@ var stdin_default = ((self, globalThis2, global) => {
           ],
           async: false
         },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/overview/_components/area-graph.tsx':
-        { id: 87621, name: '*', chunks: [], async: false },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/overview/_components/bar-graph.tsx':
-        { id: 29877, name: '*', chunks: [], async: false },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/overview/_components/pie-graph.tsx':
-        { id: 77487, name: '*', chunks: [], async: false },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/components/date-range-picker.tsx':
-        { id: 81189, name: '*', chunks: [], async: false },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/components/ui/avatar.tsx':
-        { id: 41647, name: '*', chunks: [], async: false },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/components/ui/tabs.tsx':
-        { id: 85273, name: '*', chunks: [], async: false },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/employee/_components/employee-tables/index.tsx':
-        { id: 49221, name: '*', chunks: [], async: false },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/kanban/_components/kanban-board.tsx':
+        { id: 23494, name: '*', chunks: [], async: false },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/kanban/_components/new-task-dialog.tsx':
+        { id: 10854, name: '*', chunks: [], async: false },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/product/_components/product-form.tsx':
+        { id: 34332, name: '*', chunks: [], async: false },
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/profile/_components/profile-create-form.tsx':
         {
           id: 39589,
@@ -856,16 +846,26 @@ var stdin_default = ((self, globalThis2, global) => {
           ],
           async: false
         },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/product/_components/product-form.tsx':
-        { id: 34332, name: '*', chunks: [], async: false },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/overview/_components/area-graph.tsx':
+        { id: 87621, name: '*', chunks: [], async: false },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/overview/_components/bar-graph.tsx':
+        { id: 29877, name: '*', chunks: [], async: false },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/overview/_components/pie-graph.tsx':
+        { id: 77487, name: '*', chunks: [], async: false },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/components/date-range-picker.tsx':
+        { id: 81189, name: '*', chunks: [], async: false },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/components/ui/avatar.tsx':
+        { id: 41647, name: '*', chunks: [], async: false },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/components/ui/tabs.tsx':
+        { id: 85273, name: '*', chunks: [], async: false },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/employee/_components/employee-tables/index.tsx':
+        { id: 49221, name: '*', chunks: [], async: false },
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/product/_components/product-tables/columns.tsx':
         { id: 3846, name: '*', chunks: [], async: false },
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/product/_components/product-tables/product-table-action.tsx':
         { id: 29119, name: '*', chunks: [], async: false },
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/components/ui/table/data-table.tsx':
-        { id: 83265, name: '*', chunks: [], async: false },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/employee/_components/employee-form.tsx':
-        { id: 35615, name: '*', chunks: [], async: false }
+        { id: 83265, name: '*', chunks: [], async: false }
     },
     entryCSSFiles: {
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/': [],
@@ -4089,7 +4089,7 @@ var stdin_default = ((self, globalThis2, global) => {
     {
       2067: __chunk_2067,
       26195: __chunk_26195,
-      64045: (e, t, a) => {
+      95975: (e, t, a) => {
         'use strict';
         a.r(t), a.d(t, { ComponentMod: () => P, default: () => I });
         var r,
@@ -4225,8 +4225,8 @@ var stdin_default = ((self, globalThis2, global) => {
               ? void 0
               : r['/dashboard/profile/page'],
           C = v(self.__RSC_SERVER_MANIFEST),
-          S = v(self.__NEXT_FONT_MANIFEST),
-          E = v(self.__INTERCEPTION_ROUTE_REWRITE_MANIFEST) ?? [];
+          E = v(self.__NEXT_FONT_MANIFEST),
+          S = v(self.__INTERCEPTION_ROUTE_REWRITE_MANIFEST) ?? [];
         k &&
           C &&
           (0, g.Mo)({
@@ -4430,10 +4430,10 @@ var stdin_default = ((self, globalThis2, global) => {
               configFileName: 'next.config.js',
               transpilePackages: ['geist']
             },
-            buildId: 'tKSsSaHTcbfG6ibFJxxX0',
-            nextFontManifest: S,
+            buildId: 'zJyc5dDhlSh4bJz3AM9bB',
+            nextFontManifest: E,
             incrementalCacheHandler: null,
-            interceptionRouteRewrites: E
+            interceptionRouteRewrites: S
           }),
           P = s;
         function I(e2) {
@@ -4601,8 +4601,8 @@ var stdin_default = ((self, globalThis2, global) => {
           return e2 ? 'open' : 'closed';
         }
         var C = a(86127);
-        let S = 'Accordion',
-          E = [
+        let E = 'Accordion',
+          S = [
             'Home',
             'End',
             'ArrowDown',
@@ -4610,10 +4610,10 @@ var stdin_default = ((self, globalThis2, global) => {
             'ArrowLeft',
             'ArrowRight'
           ],
-          [R, P, I] = (0, l.B)(S),
-          [A, T] = (0, o.b)(S, [I, b]),
-          M = b(),
-          F = s.forwardRef((e2, t2) => {
+          [R, P, I] = (0, l.B)(E),
+          [A, M] = (0, o.b)(E, [I, b]),
+          T = b(),
+          D = s.forwardRef((e2, t2) => {
             let { type: a2, ...r2 } = e2;
             return s.createElement(
               R.Provider,
@@ -4623,7 +4623,7 @@ var stdin_default = ((self, globalThis2, global) => {
                 : s.createElement(W, (0, n.Z)({}, r2, { ref: t2 }))
             );
           });
-        F.propTypes = {
+        D.propTypes = {
           type(e2) {
             let t2 = e2.value || e2.defaultValue;
             return e2.type && !['single', 'multiple'].includes(e2.type)
@@ -4641,8 +4641,8 @@ var stdin_default = ((self, globalThis2, global) => {
               : null;
           }
         };
-        let [D, z] = A(S),
-          [V, Z] = A(S, { collapsible: false }),
+        let [F, z] = A(E),
+          [V, Z] = A(E, { collapsible: false }),
           W = s.forwardRef((e2, t2) => {
             let {
                 value: a2,
@@ -4653,7 +4653,7 @@ var stdin_default = ((self, globalThis2, global) => {
               } = e2,
               [d2, m2] = (0, c.T)({ prop: a2, defaultProp: r2, onChange: o2 });
             return s.createElement(
-              D,
+              F,
               {
                 scope: e2.__scopeAccordion,
                 value: d2 ? [d2] : [],
@@ -4685,7 +4685,7 @@ var stdin_default = ((self, globalThis2, global) => {
                 [d2]
               );
             return s.createElement(
-              D,
+              F,
               {
                 scope: e2.__scopeAccordion,
                 value: i2,
@@ -4699,7 +4699,7 @@ var stdin_default = ((self, globalThis2, global) => {
               )
             );
           }),
-          [G, O] = A(S),
+          [O, G] = A(E),
           $ = s.forwardRef((e2, t2) => {
             let {
                 __scopeAccordion: a2,
@@ -4714,7 +4714,7 @@ var stdin_default = ((self, globalThis2, global) => {
               h2 = 'ltr' === (0, C.gm)(o2),
               f2 = (0, d.M)(e2.onKeyDown, (e3) => {
                 var t3;
-                if (!E.includes(e3.key)) return;
+                if (!S.includes(e3.key)) return;
                 let a3 = e3.target,
                   r3 = x2().filter((e4) => {
                     var t4;
@@ -4760,7 +4760,7 @@ var stdin_default = ((self, globalThis2, global) => {
                   t3.focus();
               });
             return s.createElement(
-              G,
+              O,
               { scope: a2, disabled: r2, direction: o2, orientation: l2 },
               s.createElement(
                 R.Slot,
@@ -4780,9 +4780,9 @@ var stdin_default = ((self, globalThis2, global) => {
           [L, U] = A(J),
           X = s.forwardRef((e2, t2) => {
             let { __scopeAccordion: a2, value: r2, ...o2 } = e2,
-              l2 = O(J, a2),
+              l2 = G(J, a2),
               i2 = z(J, a2),
-              d2 = M(a2),
+              d2 = T(a2),
               c2 = (0, x.M)(),
               m2 = (r2 && i2.value.includes(r2)) || false,
               p2 = l2.disabled || e2.disabled;
@@ -4809,7 +4809,7 @@ var stdin_default = ((self, globalThis2, global) => {
           }),
           H = s.forwardRef((e2, t2) => {
             let { __scopeAccordion: a2, ...r2 } = e2,
-              o2 = O(S, a2),
+              o2 = G(E, a2),
               l2 = U('AccordionHeader', a2);
             return s.createElement(
               m.WV.h3,
@@ -4827,10 +4827,10 @@ var stdin_default = ((self, globalThis2, global) => {
           Y = 'AccordionTrigger',
           Q = s.forwardRef((e2, t2) => {
             let { __scopeAccordion: a2, ...r2 } = e2,
-              o2 = O(S, a2),
+              o2 = G(E, a2),
               l2 = U(Y, a2),
               i2 = Z(Y, a2),
-              d2 = M(a2);
+              d2 = T(a2);
             return s.createElement(
               R.ItemSlot,
               { scope: a2 },
@@ -4851,9 +4851,9 @@ var stdin_default = ((self, globalThis2, global) => {
           }),
           q = s.forwardRef((e2, t2) => {
             let { __scopeAccordion: a2, ...r2 } = e2,
-              o2 = O(S, a2),
+              o2 = G(E, a2),
               l2 = U('AccordionContent', a2),
-              i2 = M(a2);
+              i2 = T(a2);
             return s.createElement(
               N,
               (0, n.Z)(
@@ -5340,7 +5340,7 @@ var stdin_default = ((self, globalThis2, global) => {
                           children: [
                             v2?.map((e3, t3) =>
                               r.jsx(
-                                F,
+                                D,
                                 {
                                   type: 'single',
                                   collapsible: true,
@@ -5699,7 +5699,7 @@ var stdin_default = ((self, globalThis2, global) => {
     },
     (e) => {
       var t = (t2) => e((e.s = t2));
-      e.O(0, [269, 197, 716, 548, 230, 733, 850, 857], () => t(64045));
+      e.O(0, [269, 197, 716, 548, 230, 733, 850, 857], () => t(95975));
       var a = e.O();
       (globalThis2._ENTRIES =
         'undefined' == typeof globalThis2._ENTRIES ? {} : globalThis2._ENTRIES)[

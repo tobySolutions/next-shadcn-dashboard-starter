@@ -476,7 +476,7 @@ var stdin_default = ((self, globalThis2, global) => {
             '174',
             'static/chunks/174-a9cc57459f0c4a6c.js',
             '931',
-            'static/chunks/app/(auth)/(signin)/page-10d08de474955181.js'
+            'static/chunks/app/(auth)/(signin)/page-b84ddde1602c7053.js'
           ],
           async: false
         },
@@ -622,10 +622,30 @@ var stdin_default = ((self, globalThis2, global) => {
           ],
           async: false
         },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/kanban/_components/kanban-board.tsx':
-        { id: 23494, name: '*', chunks: [], async: false },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/kanban/_components/new-task-dialog.tsx':
-        { id: 10854, name: '*', chunks: [], async: false },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/employee/_components/employee-form.tsx':
+        {
+          id: 35615,
+          name: '*',
+          chunks: [
+            '310',
+            'static/chunks/0e5ce63c-1d5167ad4725b442.js',
+            '795',
+            'static/chunks/795-32b0829921a59dc6.js',
+            '366',
+            'static/chunks/366-6ea39c91cba4b8a5.js',
+            '208',
+            'static/chunks/208-8c4e6360da9f54ce.js',
+            '673',
+            'static/chunks/673-a2691877497a3027.js',
+            '336',
+            'static/chunks/336-4ed56bf7b9d975f1.js',
+            '445',
+            'static/chunks/445-70006a086e351b9d.js',
+            '34',
+            'static/chunks/app/dashboard/employee/%5BemployeeId%5D/page-d827dab6297cff62.js'
+          ],
+          async: false
+        },
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/components/ui/scroll-area.tsx':
         {
           id: 94880,
@@ -848,6 +868,14 @@ var stdin_default = ((self, globalThis2, global) => {
           ],
           async: false
         },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/kanban/_components/kanban-board.tsx':
+        { id: 23494, name: '*', chunks: [], async: false },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/kanban/_components/new-task-dialog.tsx':
+        { id: 10854, name: '*', chunks: [], async: false },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/product/_components/product-form.tsx':
+        { id: 34332, name: '*', chunks: [], async: false },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/profile/_components/profile-create-form.tsx':
+        { id: 39589, name: '*', chunks: [], async: false },
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/overview/_components/area-graph.tsx':
         { id: 87621, name: '*', chunks: [], async: false },
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/overview/_components/bar-graph.tsx':
@@ -890,40 +918,12 @@ var stdin_default = ((self, globalThis2, global) => {
           ],
           async: false
         },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/profile/_components/profile-create-form.tsx':
-        { id: 39589, name: '*', chunks: [], async: false },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/product/_components/product-form.tsx':
-        { id: 34332, name: '*', chunks: [], async: false },
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/product/_components/product-tables/columns.tsx':
         { id: 3846, name: '*', chunks: [], async: false },
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/product/_components/product-tables/product-table-action.tsx':
         { id: 29119, name: '*', chunks: [], async: false },
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/components/ui/table/data-table.tsx':
-        { id: 83265, name: '*', chunks: [], async: false },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/employee/_components/employee-form.tsx':
-        {
-          id: 35615,
-          name: '*',
-          chunks: [
-            '310',
-            'static/chunks/0e5ce63c-1d5167ad4725b442.js',
-            '795',
-            'static/chunks/795-32b0829921a59dc6.js',
-            '366',
-            'static/chunks/366-6ea39c91cba4b8a5.js',
-            '208',
-            'static/chunks/208-8c4e6360da9f54ce.js',
-            '673',
-            'static/chunks/673-a2691877497a3027.js',
-            '336',
-            'static/chunks/336-4ed56bf7b9d975f1.js',
-            '445',
-            'static/chunks/445-70006a086e351b9d.js',
-            '34',
-            'static/chunks/app/dashboard/employee/%5BemployeeId%5D/page-d827dab6297cff62.js'
-          ],
-          async: false
-        }
+        { id: 83265, name: '*', chunks: [], async: false }
     },
     entryCSSFiles: {
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/': [],
@@ -4149,7 +4149,7 @@ var stdin_default = ((self, globalThis2, global) => {
     {
       2067: __chunk_2067,
       26195: __chunk_26195,
-      76036: (e, r, t) => {
+      69974: (e, r, t) => {
         'use strict';
         t.r(r), t.d(r, { ComponentMod: () => _, default: () => k });
         var a,
@@ -4496,7 +4496,7 @@ var stdin_default = ((self, globalThis2, global) => {
               configFileName: 'next.config.js',
               transpilePackages: ['geist']
             },
-            buildId: 'tKSsSaHTcbfG6ibFJxxX0',
+            buildId: 'zJyc5dDhlSh4bJz3AM9bB',
             nextFontManifest: I,
             incrementalCacheHandler: null,
             interceptionRouteRewrites: C
@@ -4994,7 +4994,7 @@ var stdin_default = ((self, globalThis2, global) => {
                   n.useReducer((e4, r4) => t3[e4][r4] ?? e4, r3));
               return (
                 n.useEffect(() => {
-                  let e4 = H(o3.current);
+                  let e4 = $(o3.current);
                   l2.current = 'mounted' === c2 ? e4 : 'none';
                 }, [c2]),
                 b(() => {
@@ -5002,7 +5002,7 @@ var stdin_default = ((self, globalThis2, global) => {
                     t4 = i2.current;
                   if (t4 !== e3) {
                     let a4 = l2.current,
-                      n2 = H(r4);
+                      n2 = $(r4);
                     e3
                       ? d2('MOUNT')
                       : 'none' === n2 || r4?.display === 'none'
@@ -5016,13 +5016,13 @@ var stdin_default = ((self, globalThis2, global) => {
                 b(() => {
                   if (a3) {
                     let e4 = (e5) => {
-                        let r5 = H(o3.current).includes(e5.animationName);
+                        let r5 = $(o3.current).includes(e5.animationName);
                         e5.target === a3 &&
                           r5 &&
                           y.flushSync(() => d2('ANIMATION_END'));
                       },
                       r4 = (e5) => {
-                        e5.target === a3 && (l2.current = H(o3.current));
+                        e5.target === a3 && (l2.current = $(o3.current));
                       };
                     return (
                       a3.addEventListener('animationstart', r4),
@@ -5068,14 +5068,14 @@ var stdin_default = ((self, globalThis2, global) => {
             ? n.cloneElement(s2, { ref: o2 })
             : null;
         };
-        function H(e2) {
+        function $(e2) {
           return e2?.animationName || 'none';
         }
         W.displayName = 'Presence';
-        var $ = 'Radio',
-          [q, J] = h($),
-          [Q, X] = q($),
-          Z = n.forwardRef((e2, r2) => {
+        var H = 'Radio',
+          [J, q] = h(H),
+          [Q, Z] = J(H),
+          X = n.forwardRef((e2, r2) => {
             let {
                 __scopeRadio: t2,
                 name: s2,
@@ -5126,11 +5126,11 @@ var stdin_default = ((self, globalThis2, global) => {
               ]
             });
           });
-        Z.displayName = $;
+        X.displayName = H;
         var K = 'RadioIndicator',
           V = n.forwardRef((e2, r2) => {
             let { __scopeRadio: t2, forceMount: n2, ...s2 } = e2,
-              o2 = X(K, t2);
+              o2 = Z(K, t2);
             return (0, a.jsx)(W, {
               present: n2 || o2.checked,
               children: (0, a.jsx)(g.span, {
@@ -5219,9 +5219,9 @@ var stdin_default = ((self, globalThis2, global) => {
         }
         var er = ['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'],
           et = 'RadioGroup',
-          [ea, en] = h(et, [M, J]),
+          [ea, en] = h(et, [M, q]),
           es = M(),
-          eo = J(),
+          eo = q(),
           [ei, el] = ea(et),
           ec = n.forwardRef((e2, r2) => {
             let {
@@ -5297,7 +5297,7 @@ var stdin_default = ((self, globalThis2, global) => {
                 ...c2,
                 focusable: !l2,
                 active: f2,
-                children: (0, a.jsx)(Z, {
+                children: (0, a.jsx)(X, {
                   disabled: l2,
                   required: i2.required,
                   checked: f2,
@@ -5614,7 +5614,7 @@ var stdin_default = ((self, globalThis2, global) => {
     },
     (e) => {
       var r = (r2) => e((e.s = r2));
-      e.O(0, [269, 197, 716, 548, 230, 733, 850, 857], () => r(76036));
+      e.O(0, [269, 197, 716, 548, 230, 733, 850, 857], () => r(69974));
       var t = e.O();
       (globalThis2._ENTRIES =
         'undefined' == typeof globalThis2._ENTRIES ? {} : globalThis2._ENTRIES)[

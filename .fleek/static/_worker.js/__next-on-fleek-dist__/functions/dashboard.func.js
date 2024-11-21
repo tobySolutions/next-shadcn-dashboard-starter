@@ -434,7 +434,7 @@ var stdin_default = ((self, globalThis2, global) => {
             '174',
             'static/chunks/174-a9cc57459f0c4a6c.js',
             '931',
-            'static/chunks/app/(auth)/(signin)/page-10d08de474955181.js'
+            'static/chunks/app/(auth)/(signin)/page-b84ddde1602c7053.js'
           ],
           async: false
         },
@@ -454,7 +454,7 @@ var stdin_default = ((self, globalThis2, global) => {
             '174',
             'static/chunks/174-a9cc57459f0c4a6c.js',
             '931',
-            'static/chunks/app/(auth)/(signin)/page-10d08de474955181.js'
+            'static/chunks/app/(auth)/(signin)/page-b84ddde1602c7053.js'
           ],
           async: false
         },
@@ -474,7 +474,7 @@ var stdin_default = ((self, globalThis2, global) => {
             '174',
             'static/chunks/174-a9cc57459f0c4a6c.js',
             '931',
-            'static/chunks/app/(auth)/(signin)/page-10d08de474955181.js'
+            'static/chunks/app/(auth)/(signin)/page-b84ddde1602c7053.js'
           ],
           async: false
         },
@@ -560,10 +560,8 @@ var stdin_default = ((self, globalThis2, global) => {
           ],
           async: false
         },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/kanban/_components/kanban-board.tsx':
-        { id: 23494, name: '*', chunks: [], async: false },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/kanban/_components/new-task-dialog.tsx':
-        { id: 10854, name: '*', chunks: [], async: false },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/employee/_components/employee-form.tsx':
+        { id: 35615, name: '*', chunks: [], async: false },
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/components/ui/scroll-area.tsx':
         { id: 94880, name: '*', chunks: [], async: false },
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/components/breadcrumbs.tsx':
@@ -758,6 +756,14 @@ var stdin_default = ((self, globalThis2, global) => {
           ],
           async: false
         },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/kanban/_components/kanban-board.tsx':
+        { id: 23494, name: '*', chunks: [], async: false },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/kanban/_components/new-task-dialog.tsx':
+        { id: 10854, name: '*', chunks: [], async: false },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/product/_components/product-form.tsx':
+        { id: 34332, name: '*', chunks: [], async: false },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/profile/_components/profile-create-form.tsx':
+        { id: 39589, name: '*', chunks: [], async: false },
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/overview/_components/area-graph.tsx':
         { id: 87621, name: '*', chunks: [], async: false },
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/overview/_components/bar-graph.tsx':
@@ -772,18 +778,12 @@ var stdin_default = ((self, globalThis2, global) => {
         { id: 85273, name: '*', chunks: [], async: false },
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/employee/_components/employee-tables/index.tsx':
         { id: 49221, name: '*', chunks: [], async: false },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/profile/_components/profile-create-form.tsx':
-        { id: 39589, name: '*', chunks: [], async: false },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/product/_components/product-form.tsx':
-        { id: 34332, name: '*', chunks: [], async: false },
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/product/_components/product-tables/columns.tsx':
         { id: 3846, name: '*', chunks: [], async: false },
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/product/_components/product-tables/product-table-action.tsx':
         { id: 29119, name: '*', chunks: [], async: false },
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/components/ui/table/data-table.tsx':
-        { id: 83265, name: '*', chunks: [], async: false },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/employee/_components/employee-form.tsx':
-        { id: 35615, name: '*', chunks: [], async: false }
+        { id: 83265, name: '*', chunks: [], async: false }
     },
     entryCSSFiles: {
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/': [],
@@ -3962,7 +3962,7 @@ var stdin_default = ((self, globalThis2, global) => {
     {
       2067: __chunk_2067,
       26195: __chunk_26195,
-      438: (e, t, a) => {
+      95483: (e, t, a) => {
         'use strict';
         a.r(t), a.d(t, { ComponentMod: () => F, default: () => C });
         var r,
@@ -4089,8 +4089,8 @@ var stdin_default = ((self, globalThis2, global) => {
           E = v(self.__REACT_LOADABLE_MANIFEST),
           T = null == (r = self.__RSC_MANIFEST) ? void 0 : r['/dashboard/page'],
           R = v(self.__RSC_SERVER_MANIFEST),
-          k = v(self.__NEXT_FONT_MANIFEST),
-          A = v(self.__INTERCEPTION_ROUTE_REWRITE_MANIFEST) ?? [];
+          A = v(self.__NEXT_FONT_MANIFEST),
+          M = v(self.__INTERCEPTION_ROUTE_REWRITE_MANIFEST) ?? [];
         T &&
           R &&
           (0, S.Mo)({
@@ -4101,7 +4101,7 @@ var stdin_default = ((self, globalThis2, global) => {
               pageName: '/dashboard/page'
             })
           });
-        let M = (0, o.d)({
+        let k = (0, o.d)({
             pagesType: x.s.APP,
             dev: false,
             page: '/dashboard/page',
@@ -4294,24 +4294,23 @@ var stdin_default = ((self, globalThis2, global) => {
               configFileName: 'next.config.js',
               transpilePackages: ['geist']
             },
-            buildId: 'tKSsSaHTcbfG6ibFJxxX0',
-            nextFontManifest: k,
+            buildId: 'zJyc5dDhlSh4bJz3AM9bB',
+            nextFontManifest: A,
             incrementalCacheHandler: null,
-            interceptionRouteRewrites: A
+            interceptionRouteRewrites: M
           }),
           F = s;
         function C(e2) {
-          return (0, i.C)({ ...e2, IncrementalCache: n.k, handler: M });
+          return (0, i.C)({ ...e2, IncrementalCache: n.k, handler: k });
         }
       },
       35303: __chunk_35303,
       81632: (e, t, a) => {
         'use strict';
-        a.r(t), a.d(t, { default: () => o, runtime: () => i });
+        a.r(t), a.d(t, { default: () => i });
         var r = a(25673),
           s = a(47701);
-        let i = 'edge';
-        async function o() {
+        async function i() {
           let e2 = await (0, r.I8)();
           if (!e2?.user) return (0, s.uX)('/');
           (0, s.uX)('/dashboard/overview');
@@ -4320,7 +4319,7 @@ var stdin_default = ((self, globalThis2, global) => {
     },
     (e) => {
       var t = (t2) => e((e.s = t2));
-      e.O(0, [269, 197, 716, 548, 857], () => t(438));
+      e.O(0, [269, 197, 716, 548, 857], () => t(95483));
       var a = e.O();
       (globalThis2._ENTRIES =
         'undefined' == typeof globalThis2._ENTRIES ? {} : globalThis2._ENTRIES)[

@@ -497,7 +497,7 @@ var stdin_default = ((self, globalThis2, global) => {
             '174',
             'static/chunks/174-a9cc57459f0c4a6c.js',
             '931',
-            'static/chunks/app/(auth)/(signin)/page-10d08de474955181.js'
+            'static/chunks/app/(auth)/(signin)/page-b84ddde1602c7053.js'
           ],
           async: false
         },
@@ -647,10 +647,8 @@ var stdin_default = ((self, globalThis2, global) => {
           ],
           async: false
         },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/kanban/_components/kanban-board.tsx':
-        { id: 23494, name: '*', chunks: [], async: false },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/kanban/_components/new-task-dialog.tsx':
-        { id: 10854, name: '*', chunks: [], async: false },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/employee/_components/employee-form.tsx':
+        { id: 35615, name: '*', chunks: [], async: false },
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/components/ui/scroll-area.tsx':
         {
           id: 94880,
@@ -879,22 +877,10 @@ var stdin_default = ((self, globalThis2, global) => {
           ],
           async: false
         },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/overview/_components/area-graph.tsx':
-        { id: 87621, name: '*', chunks: [], async: false },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/overview/_components/bar-graph.tsx':
-        { id: 29877, name: '*', chunks: [], async: false },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/overview/_components/pie-graph.tsx':
-        { id: 77487, name: '*', chunks: [], async: false },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/components/date-range-picker.tsx':
-        { id: 81189, name: '*', chunks: [], async: false },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/components/ui/avatar.tsx':
-        { id: 41647, name: '*', chunks: [], async: false },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/components/ui/tabs.tsx':
-        { id: 85273, name: '*', chunks: [], async: false },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/employee/_components/employee-tables/index.tsx':
-        { id: 49221, name: '*', chunks: [], async: false },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/profile/_components/profile-create-form.tsx':
-        { id: 39589, name: '*', chunks: [], async: false },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/kanban/_components/kanban-board.tsx':
+        { id: 23494, name: '*', chunks: [], async: false },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/kanban/_components/new-task-dialog.tsx':
+        { id: 10854, name: '*', chunks: [], async: false },
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/product/_components/product-form.tsx':
         {
           id: 34332,
@@ -923,6 +909,22 @@ var stdin_default = ((self, globalThis2, global) => {
           ],
           async: false
         },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/profile/_components/profile-create-form.tsx':
+        { id: 39589, name: '*', chunks: [], async: false },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/overview/_components/area-graph.tsx':
+        { id: 87621, name: '*', chunks: [], async: false },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/overview/_components/bar-graph.tsx':
+        { id: 29877, name: '*', chunks: [], async: false },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/overview/_components/pie-graph.tsx':
+        { id: 77487, name: '*', chunks: [], async: false },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/components/date-range-picker.tsx':
+        { id: 81189, name: '*', chunks: [], async: false },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/components/ui/avatar.tsx':
+        { id: 41647, name: '*', chunks: [], async: false },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/components/ui/tabs.tsx':
+        { id: 85273, name: '*', chunks: [], async: false },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/employee/_components/employee-tables/index.tsx':
+        { id: 49221, name: '*', chunks: [], async: false },
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/product/_components/product-tables/columns.tsx':
         {
           id: 3846,
@@ -1018,9 +1020,7 @@ var stdin_default = ((self, globalThis2, global) => {
             'static/chunks/app/dashboard/product/page-f73d87e1c9d8c539.js'
           ],
           async: false
-        },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/employee/_components/employee-form.tsx':
-        { id: 35615, name: '*', chunks: [], async: false }
+        }
     },
     entryCSSFiles: {
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/': [],
@@ -4260,7 +4260,7 @@ var stdin_default = ((self, globalThis2, global) => {
     {
       2067: __chunk_2067,
       26195: __chunk_26195,
-      37345: (e, t, r) => {
+      79813: (e, t, r) => {
         'use strict';
         r.r(t), r.d(t, { ComponentMod: () => E, default: () => k });
         var n,
@@ -4607,7 +4607,7 @@ var stdin_default = ((self, globalThis2, global) => {
               configFileName: 'next.config.js',
               transpilePackages: ['geist']
             },
-            buildId: 'tKSsSaHTcbfG6ibFJxxX0',
+            buildId: 'zJyc5dDhlSh4bJz3AM9bB',
             nextFontManifest: O,
             incrementalCacheHandler: null,
             interceptionRouteRewrites: A
@@ -5108,8 +5108,8 @@ var stdin_default = ((self, globalThis2, global) => {
             'onDragLeave',
             'onDrop'
           ],
-          H = ['refKey', 'onChange', 'onClick'];
-        function J(e2, t2) {
+          J = ['refKey', 'onChange', 'onClick'];
+        function H(e2, t2) {
           return (
             (function (e3) {
               if (Array.isArray(e3)) return e3;
@@ -5145,7 +5145,7 @@ var stdin_default = ((self, globalThis2, global) => {
                 return i2;
               }
             })(e2, t2) ||
-            K(e2, t2) ||
+            Y(e2, t2) ||
             (function () {
               throw TypeError(
                 'Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.'
@@ -5153,9 +5153,9 @@ var stdin_default = ((self, globalThis2, global) => {
             })()
           );
         }
-        function K(e2, t2) {
+        function Y(e2, t2) {
           if (e2) {
-            if ('string' == typeof e2) return Y(e2, t2);
+            if ('string' == typeof e2) return K(e2, t2);
             var r2 = Object.prototype.toString.call(e2).slice(8, -1);
             if (
               ('Object' === r2 && e2.constructor && (r2 = e2.constructor.name),
@@ -5166,15 +5166,15 @@ var stdin_default = ((self, globalThis2, global) => {
               'Arguments' === r2 ||
               /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(r2)
             )
-              return Y(e2, t2);
+              return K(e2, t2);
           }
         }
-        function Y(e2, t2) {
+        function K(e2, t2) {
           (null == t2 || t2 > e2.length) && (t2 = e2.length);
           for (var r2 = 0, n2 = Array(t2); r2 < t2; r2++) n2[r2] = e2[r2];
           return n2;
         }
-        function X(e2, t2) {
+        function q(e2, t2) {
           var r2 = Object.keys(e2);
           if (Object.getOwnPropertySymbols) {
             var n2 = Object.getOwnPropertySymbols(e2);
@@ -5186,19 +5186,19 @@ var stdin_default = ((self, globalThis2, global) => {
           }
           return r2;
         }
-        function q(e2) {
+        function Q(e2) {
           for (var t2 = 1; t2 < arguments.length; t2++) {
             var r2 = null != arguments[t2] ? arguments[t2] : {};
             t2 % 2
-              ? X(Object(r2), true).forEach(function (t3) {
-                  Q(e2, t3, r2[t3]);
+              ? q(Object(r2), true).forEach(function (t3) {
+                  V(e2, t3, r2[t3]);
                 })
               : Object.getOwnPropertyDescriptors
               ? Object.defineProperties(
                   e2,
                   Object.getOwnPropertyDescriptors(r2)
                 )
-              : X(Object(r2)).forEach(function (t3) {
+              : q(Object(r2)).forEach(function (t3) {
                   Object.defineProperty(
                     e2,
                     t3,
@@ -5208,7 +5208,7 @@ var stdin_default = ((self, globalThis2, global) => {
           }
           return e2;
         }
-        function Q(e2, t2, r2) {
+        function V(e2, t2, r2) {
           return (
             t2 in e2
               ? Object.defineProperty(e2, t2, {
@@ -5221,7 +5221,7 @@ var stdin_default = ((self, globalThis2, global) => {
             e2
           );
         }
-        function V(e2, t2) {
+        function X(e2, t2) {
           if (null == e2) return {};
           var r2,
             n2,
@@ -5252,7 +5252,7 @@ var stdin_default = ((self, globalThis2, global) => {
                   arguments.length > 0 && void 0 !== arguments[0]
                     ? arguments[0]
                     : {},
-                t3 = q(q({}, et), e3),
+                t3 = Q(Q({}, et), e3),
                 r3 = t3.accept,
                 n3 = t3.disabled,
                 a3 = t3.getFilesFromEvent,
@@ -5352,9 +5352,9 @@ var stdin_default = ((self, globalThis2, global) => {
                   },
                   [g2]
                 ),
-                X2 = (0, l.useRef)(null),
+                q2 = (0, l.useRef)(null),
                 ee2 = (0, l.useRef)(null),
-                ei2 = J((0, l.useReducer)(en, er), 2),
+                ei2 = H((0, l.useReducer)(en, er), 2),
                 eo2 = ei2[0],
                 es2 = ei2[1],
                 el2 = eo2.isFocused,
@@ -5387,7 +5387,7 @@ var stdin_default = ((self, globalThis2, global) => {
               );
               var ep2 = (0, l.useRef)([]),
                 ef2 = function (e4) {
-                  (X2.current && X2.current.contains(e4.target)) ||
+                  (q2.current && q2.current.contains(e4.target)) ||
                     (e4.preventDefault(), (ep2.current = []));
                 };
               (0, l.useEffect)(
@@ -5403,16 +5403,16 @@ var stdin_default = ((self, globalThis2, global) => {
                     }
                   );
                 },
-                [X2, b2]
+                [q2, b2]
               ),
                 (0, l.useEffect)(
                   function () {
                     return (
-                      !n3 && y2 && X2.current && X2.current.focus(),
+                      !n3 && y2 && q2.current && q2.current.focus(),
                       function () {}
                     );
                   },
-                  [X2, y2, n3]
+                  [q2, y2, n3]
                 );
               var em2 = (0, l.useCallback)(
                   function (e4) {
@@ -5428,7 +5428,7 @@ var stdin_default = ((self, globalThis2, global) => {
                       eA2(e4),
                       (ep2.current = [].concat(
                         (function (e5) {
-                          if (Array.isArray(e5)) return Y(e5);
+                          if (Array.isArray(e5)) return K(e5);
                         })((t4 = ep2.current)) ||
                           (function (e5) {
                             if (
@@ -5438,7 +5438,7 @@ var stdin_default = ((self, globalThis2, global) => {
                             )
                               return Array.from(e5);
                           })(t4) ||
-                          K(t4) ||
+                          Y(t4) ||
                           (function () {
                             throw TypeError(
                               'Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.'
@@ -5515,7 +5515,7 @@ var stdin_default = ((self, globalThis2, global) => {
                   function (e4) {
                     e4.preventDefault(), e4.persist(), eA2(e4);
                     var t4 = ep2.current.filter(function (e5) {
-                        return X2.current && X2.current.contains(e5);
+                        return q2.current && q2.current.contains(e5);
                       }),
                       r4 = t4.indexOf(e4.target);
                     -1 !== r4 && t4.splice(r4, 1),
@@ -5529,17 +5529,17 @@ var stdin_default = ((self, globalThis2, global) => {
                         }),
                         T(e4) && d2 && d2(e4));
                   },
-                  [X2, d2, A2]
+                  [q2, d2, A2]
                 ),
                 ev2 = (0, l.useCallback)(
                   function (e4, t4) {
                     var r4 = [],
                       n4 = [];
                     e4.forEach(function (e5) {
-                      var t5 = J(I(e5, k2), 2),
+                      var t5 = H(I(e5, k2), 2),
                         a4 = t5[0],
                         s3 = t5[1],
-                        l2 = J(_(e5, o2, i3), 2),
+                        l2 = H(_(e5, o2, i3), 2),
                         c3 = l2[0],
                         u3 = l2[1],
                         d3 = E2 ? E2(e5) : null;
@@ -5634,15 +5634,15 @@ var stdin_default = ((self, globalThis2, global) => {
                 ),
                 ej2 = (0, l.useCallback)(
                   function (e4) {
-                    X2.current &&
-                      X2.current.isEqualNode(e4.target) &&
+                    q2.current &&
+                      q2.current.isEqualNode(e4.target) &&
                       (' ' === e4.key ||
                         'Enter' === e4.key ||
                         32 === e4.keyCode ||
                         13 === e4.keyCode) &&
                       (e4.preventDefault(), eb2());
                   },
-                  [X2, eb2]
+                  [q2, eb2]
                 ),
                 ew2 = (0, l.useCallback)(function () {
                   es2({ type: 'focus' });
@@ -5698,10 +5698,10 @@ var stdin_default = ((self, globalThis2, global) => {
                         c3 = e4.onDragOver,
                         u3 = e4.onDragLeave,
                         d3 = e4.onDrop,
-                        p3 = V(e4, Z);
-                      return q(
-                        q(
-                          Q(
+                        p3 = X(e4, Z);
+                      return Q(
+                        Q(
+                          V(
                             {
                               onKeyDown: eP2(B(a4, ej2)),
                               onFocus: eP2(B(i4, ew2)),
@@ -5717,7 +5717,7 @@ var stdin_default = ((self, globalThis2, global) => {
                                   : 'presentation'
                             },
                             void 0 === t4 ? 'ref' : t4,
-                            X2
+                            q2
                           ),
                           n3 || w2 ? {} : { tabIndex: 0 }
                         ),
@@ -5725,7 +5725,7 @@ var stdin_default = ((self, globalThis2, global) => {
                       );
                     };
                   },
-                  [X2, ej2, ew2, eN2, eD2, eh2, eg2, ex2, ey2, w2, D2, n3]
+                  [q2, ej2, ew2, eN2, eD2, eh2, eg2, ex2, ey2, w2, D2, n3]
                 ),
                 eE2 = (0, l.useCallback)(function (e4) {
                   e4.stopPropagation();
@@ -5740,11 +5740,11 @@ var stdin_default = ((self, globalThis2, global) => {
                         t4 = e4.refKey,
                         r4 = e4.onChange,
                         n4 = e4.onClick,
-                        a4 = V(e4, H);
-                      return q(
-                        q(
+                        a4 = X(e4, J);
+                      return Q(
+                        Q(
                           {},
-                          Q(
+                          V(
                             {
                               accept: k2,
                               multiple: s2,
@@ -5764,21 +5764,21 @@ var stdin_default = ((self, globalThis2, global) => {
                   },
                   [ee2, r3, s2, ey2, n3]
                 );
-              return q(
-                q({}, eo2),
+              return Q(
+                Q({}, eo2),
                 {},
                 {
                   isFocused: el2 && !n3,
                   getRootProps: eC2,
                   getInputProps: ek2,
-                  rootRef: X2,
+                  rootRef: q2,
                   inputRef: ee2,
                   open: eS2(eb2)
                 }
               );
-            })(V(e2, U)),
+            })(X(e2, U)),
             a2 = n2.open,
-            i2 = V(n2, W);
+            i2 = X(n2, W);
           return (
             (0, l.useImperativeHandle)(
               t2,
@@ -5790,7 +5790,7 @@ var stdin_default = ((self, globalThis2, global) => {
             l.createElement(
               l.Fragment,
               null,
-              r2(q(q({}, i2), {}, { open: a2 }))
+              r2(Q(Q({}, i2), {}, { open: a2 }))
             )
           );
         });
@@ -5944,16 +5944,16 @@ var stdin_default = ((self, globalThis2, global) => {
         function en(e2, t2) {
           switch (t2.type) {
             case 'focus':
-              return q(q({}, e2), {}, { isFocused: true });
+              return Q(Q({}, e2), {}, { isFocused: true });
             case 'blur':
-              return q(q({}, e2), {}, { isFocused: false });
+              return Q(Q({}, e2), {}, { isFocused: false });
             case 'openDialog':
-              return q(q({}, er), {}, { isFileDialogActive: true });
+              return Q(Q({}, er), {}, { isFileDialogActive: true });
             case 'closeDialog':
-              return q(q({}, e2), {}, { isFileDialogActive: false });
+              return Q(Q({}, e2), {}, { isFileDialogActive: false });
             case 'setDraggedFiles':
-              return q(
-                q({}, e2),
+              return Q(
+                Q({}, e2),
                 {},
                 {
                   isDragActive: t2.isDragActive,
@@ -5962,8 +5962,8 @@ var stdin_default = ((self, globalThis2, global) => {
                 }
               );
             case 'setFiles':
-              return q(
-                q({}, e2),
+              return Q(
+                Q({}, e2),
                 {},
                 {
                   acceptedFiles: t2.acceptedFiles,
@@ -5971,7 +5971,7 @@ var stdin_default = ((self, globalThis2, global) => {
                 }
               );
             case 'reset':
-              return q({}, er);
+              return Q({}, er);
             default:
               return e2;
           }
@@ -6811,7 +6811,7 @@ Defaulting to \`null\`.`)
     (e) => {
       var t = (t2) => e((e.s = t2));
       e.O(0, [269, 197, 716, 548, 230, 733, 379, 850, 363, 655, 857], () =>
-        t(37345)
+        t(79813)
       );
       var r = e.O();
       (globalThis2._ENTRIES =

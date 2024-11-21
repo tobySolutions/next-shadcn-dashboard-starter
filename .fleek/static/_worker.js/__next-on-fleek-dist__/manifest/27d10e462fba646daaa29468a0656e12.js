@@ -2,7 +2,7 @@
 var __namedExportsObject = {};
 var __getNamedExports = (self, globalThis, global) => {
   __namedExportsObject['__NEXT_FONT_MANIFEST'] = self.__NEXT_FONT_MANIFEST =
-    '{"pages":{},"app":{"/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/layout":["static/media/7ff6869a1704182a-s.p.woff2","static/media/4de1fea1a954a5b6-s.p.woff2","static/media/6d664cce900333ee-s.p.woff2"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}';
+    '{"pages":{},"app":{"/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/layout":["static/media/6d664cce900333ee-s.p.woff2","static/media/4de1fea1a954a5b6-s.p.woff2","static/media/7ff6869a1704182a-s.p.woff2"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}';
   __namedExportsObject['__REACT_LOADABLE_MANIFEST'] =
     self.__REACT_LOADABLE_MANIFEST = '{}';
   __namedExportsObject['__BUILD_MANIFEST'] = self.__BUILD_MANIFEST = {
@@ -10,8 +10,8 @@ var __getNamedExports = (self, globalThis, global) => {
     devFiles: [],
     ampDevFiles: [],
     lowPriorityFiles: [
-      'static/tKSsSaHTcbfG6ibFJxxX0/_buildManifest.js',
-      'static/tKSsSaHTcbfG6ibFJxxX0/_ssgManifest.js'
+      'static/zJyc5dDhlSh4bJz3AM9bB/_buildManifest.js',
+      'static/zJyc5dDhlSh4bJz3AM9bB/_ssgManifest.js'
     ],
     rootMainFiles: [
       'static/chunks/webpack-48cd821a99d1bfca.js',

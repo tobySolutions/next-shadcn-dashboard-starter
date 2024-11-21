@@ -513,7 +513,7 @@ var stdin_default = ((self, globalThis2, global) => {
             '174',
             'static/chunks/174-a9cc57459f0c4a6c.js',
             '931',
-            'static/chunks/app/(auth)/(signin)/page-10d08de474955181.js'
+            'static/chunks/app/(auth)/(signin)/page-b84ddde1602c7053.js'
           ],
           async: false
         },
@@ -659,10 +659,8 @@ var stdin_default = ((self, globalThis2, global) => {
           ],
           async: false
         },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/kanban/_components/kanban-board.tsx':
-        { id: 23494, name: '*', chunks: [], async: false },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/kanban/_components/new-task-dialog.tsx':
-        { id: 10854, name: '*', chunks: [], async: false },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/employee/_components/employee-form.tsx':
+        { id: 35615, name: '*', chunks: [], async: false },
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/components/ui/scroll-area.tsx':
         {
           id: 94880,
@@ -891,6 +889,14 @@ var stdin_default = ((self, globalThis2, global) => {
           ],
           async: false
         },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/kanban/_components/kanban-board.tsx':
+        { id: 23494, name: '*', chunks: [], async: false },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/kanban/_components/new-task-dialog.tsx':
+        { id: 10854, name: '*', chunks: [], async: false },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/product/_components/product-form.tsx':
+        { id: 34332, name: '*', chunks: [], async: false },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/profile/_components/profile-create-form.tsx':
+        { id: 39589, name: '*', chunks: [], async: false },
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/overview/_components/area-graph.tsx':
         { id: 87621, name: '*', chunks: [], async: false },
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/overview/_components/bar-graph.tsx':
@@ -933,18 +939,12 @@ var stdin_default = ((self, globalThis2, global) => {
           ],
           async: false
         },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/profile/_components/profile-create-form.tsx':
-        { id: 39589, name: '*', chunks: [], async: false },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/product/_components/product-form.tsx':
-        { id: 34332, name: '*', chunks: [], async: false },
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/product/_components/product-tables/columns.tsx':
         { id: 3846, name: '*', chunks: [], async: false },
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/product/_components/product-tables/product-table-action.tsx':
         { id: 29119, name: '*', chunks: [], async: false },
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/components/ui/table/data-table.tsx':
-        { id: 83265, name: '*', chunks: [], async: false },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/employee/_components/employee-form.tsx':
-        { id: 35615, name: '*', chunks: [], async: false }
+        { id: 83265, name: '*', chunks: [], async: false }
     },
     entryCSSFiles: {
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/': [],
@@ -4213,9 +4213,9 @@ var stdin_default = ((self, globalThis2, global) => {
     {
       2067: __chunk_2067,
       26195: __chunk_26195,
-      17186: (e, t, a) => {
+      90676: (e, t, a) => {
         'use strict';
-        a.r(t), a.d(t, { ComponentMod: () => M, default: () => N });
+        a.r(t), a.d(t, { ComponentMod: () => M, default: () => D });
         var s,
           r = {};
         a.r(r),
@@ -4341,8 +4341,8 @@ var stdin_default = ((self, globalThis2, global) => {
           y = a(41318),
           v = a(70012);
         let k = (e2) => (e2 ? JSON.parse(e2) : void 0),
-          S = self.__BUILD_MANIFEST,
-          E = k(self.__PRERENDER_MANIFEST),
+          E = self.__BUILD_MANIFEST,
+          S = k(self.__PRERENDER_MANIFEST),
           w = k(self.__REACT_LOADABLE_MANIFEST),
           P =
             null == (s = self.__RSC_MANIFEST)
@@ -4370,8 +4370,8 @@ var stdin_default = ((self, globalThis2, global) => {
             errorMod: null,
             error500Mod: null,
             Document: null,
-            buildManifest: S,
-            prerenderManifest: E,
+            buildManifest: E,
+            prerenderManifest: S,
             renderToHTML: c.f,
             reactLoadableManifest: w,
             clientReferenceManifest: P,
@@ -4554,13 +4554,13 @@ var stdin_default = ((self, globalThis2, global) => {
               configFileName: 'next.config.js',
               transpilePackages: ['geist']
             },
-            buildId: 'tKSsSaHTcbfG6ibFJxxX0',
+            buildId: 'zJyc5dDhlSh4bJz3AM9bB',
             nextFontManifest: _,
             incrementalCacheHandler: null,
             interceptionRouteRewrites: C
           }),
           M = r;
-        function N(e2) {
+        function D(e2) {
           return (0, n.C)({ ...e2, IncrementalCache: o.k, handler: R });
         }
       },
@@ -4572,7 +4572,7 @@ var stdin_default = ((self, globalThis2, global) => {
       },
       32614: (e, t, a) => {
         'use strict';
-        a.d(t, { default: () => H });
+        a.d(t, { default: () => W });
         var s = a(5486),
           r = a(73998),
           n = a(60548),
@@ -4590,8 +4590,8 @@ var stdin_default = ((self, globalThis2, global) => {
           g = a(79118);
         let x = 'Checkbox',
           [y, v] = (0, p.b)(x),
-          [k, S] = y(x),
-          E = (0, c.forwardRef)((e2, t2) => {
+          [k, E] = y(x),
+          S = (0, c.forwardRef)((e2, t2) => {
             let {
                 __scopeCheckbox: a2,
                 name: s2,
@@ -4606,13 +4606,13 @@ var stdin_default = ((self, globalThis2, global) => {
               [b2, x2] = (0, c.useState)(null),
               y2 = (0, d.e)(t2, (e3) => x2(e3)),
               v2 = (0, c.useRef)(false),
-              S2 = !b2 || !!b2.closest('form'),
-              [E2 = false, w2] = (0, m.T)({
+              E2 = !b2 || !!b2.closest('form'),
+              [S2 = false, w2] = (0, m.T)({
                 prop: r2,
                 defaultProp: n2,
                 onChange: h2
               }),
-              C2 = (0, c.useRef)(E2);
+              C2 = (0, c.useRef)(S2);
             return (
               (0, c.useEffect)(() => {
                 let e3 = null == b2 ? void 0 : b2.form;
@@ -4626,16 +4626,16 @@ var stdin_default = ((self, globalThis2, global) => {
               }, [b2, w2]),
               (0, c.createElement)(
                 k,
-                { scope: a2, state: E2, disabled: o2 },
+                { scope: a2, state: S2, disabled: o2 },
                 (0, c.createElement)(
                   g.WV.button,
                   (0, l.Z)(
                     {
                       type: 'button',
                       role: 'checkbox',
-                      'aria-checked': j(E2) ? 'mixed' : E2,
+                      'aria-checked': j(S2) ? 'mixed' : S2,
                       'aria-required': i2,
-                      'data-state': _(E2),
+                      'data-state': _(S2),
                       'data-disabled': o2 ? '' : void 0,
                       disabled: o2,
                       value: p2
@@ -4648,20 +4648,20 @@ var stdin_default = ((self, globalThis2, global) => {
                       }),
                       onClick: (0, u.M)(e2.onClick, (e3) => {
                         w2((e4) => !!j(e4) || !e4),
-                          S2 &&
+                          E2 &&
                             ((v2.current = e3.isPropagationStopped()),
                             v2.current || e3.stopPropagation());
                       })
                     }
                   )
                 ),
-                S2 &&
+                E2 &&
                   (0, c.createElement)(P, {
                     control: b2,
                     bubbles: !v2.current,
                     name: s2,
                     value: p2,
-                    checked: E2,
+                    checked: S2,
                     required: i2,
                     disabled: o2,
                     style: { transform: 'translateX(-100%)' }
@@ -4671,7 +4671,7 @@ var stdin_default = ((self, globalThis2, global) => {
           }),
           w = (0, c.forwardRef)((e2, t2) => {
             let { __scopeCheckbox: a2, forceMount: s2, ...r2 } = e2,
-              n2 = S('CheckboxIndicator', a2);
+              n2 = E('CheckboxIndicator', a2);
             return (0, c.createElement)(
               b.z,
               { present: s2 || j(n2.state) || true === n2.state },
@@ -4741,7 +4741,7 @@ var stdin_default = ((self, globalThis2, global) => {
         var C = a(44991),
           R = a(82087);
         let M = c.forwardRef(({ className: e2, ...t2 }, a2) =>
-          (0, s.jsx)(E, {
+          (0, s.jsx)(S, {
             ref: a2,
             className: (0, R.cn)(
               'peer h-4 w-4 shrink-0 rounded-sm border border-primary shadow focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground',
@@ -4756,13 +4756,13 @@ var stdin_default = ((self, globalThis2, global) => {
             })
           })
         );
-        M.displayName = E.displayName;
-        var N = a(73576),
-          T = a(93766),
-          D = a(8345),
-          A = a(6837),
-          F = a(336),
-          I = a(20570),
+        M.displayName = S.displayName;
+        var D = a(73576),
+          N = a(93766),
+          A = a(8345),
+          T = a(6837),
+          I = a(336),
+          F = a(20570),
           O = a(60769);
         let z = ({ data: e2 }) => {
             let [t2, a2] = (0, c.useState)(false),
@@ -4771,18 +4771,18 @@ var stdin_default = ((self, globalThis2, global) => {
               o2 = async__chunk_67272;
             return (0, s.jsxs)(s.Fragment, {
               children: [
-                (0, s.jsx)(N.V, {
+                (0, s.jsx)(D.V, {
                   isOpen: r2,
                   onClose: () => n2(false),
                   onConfirm: o2,
                   loading: t2
                 }),
-                (0, s.jsxs)(D.h_, {
+                (0, s.jsxs)(A.h_, {
                   modal: false,
                   children: [
-                    (0, s.jsx)(D.$F, {
+                    (0, s.jsx)(A.$F, {
                       asChild: true,
-                      children: (0, s.jsxs)(T.z, {
+                      children: (0, s.jsxs)(N.z, {
                         variant: 'ghost',
                         className: 'h-8 w-8 p-0',
                         children: [
@@ -4790,25 +4790,25 @@ var stdin_default = ((self, globalThis2, global) => {
                             className: 'sr-only',
                             children: 'Open menu'
                           }),
-                          (0, s.jsx)(A.Z, { className: 'h-4 w-4' })
+                          (0, s.jsx)(T.Z, { className: 'h-4 w-4' })
                         ]
                       })
                     }),
-                    (0, s.jsxs)(D.AW, {
+                    (0, s.jsxs)(A.AW, {
                       align: 'end',
                       children: [
-                        (0, s.jsx)(D.Ju, { children: 'Actions' }),
-                        (0, s.jsxs)(D.Xi, {
+                        (0, s.jsx)(A.Ju, { children: 'Actions' }),
+                        (0, s.jsxs)(A.Xi, {
                           onClick: () => i2.push(`/dashboard/user/${e2.id}`),
                           children: [
-                            (0, s.jsx)(F.Z, { className: 'mr-2 h-4 w-4' }),
+                            (0, s.jsx)(I.Z, { className: 'mr-2 h-4 w-4' }),
                             ' Update'
                           ]
                         }),
-                        (0, s.jsxs)(D.Xi, {
+                        (0, s.jsxs)(A.Xi, {
                           onClick: () => n2(true),
                           children: [
-                            (0, s.jsx)(I.Z, { className: 'mr-2 h-4 w-4' }),
+                            (0, s.jsx)(F.Z, { className: 'mr-2 h-4 w-4' }),
                             ' Delete'
                           ]
                         })
@@ -4819,7 +4819,7 @@ var stdin_default = ((self, globalThis2, global) => {
               ]
             });
           },
-          U = [
+          B = [
             {
               id: 'select',
               header: ({ table: e2 }) =>
@@ -4847,13 +4847,13 @@ var stdin_default = ((self, globalThis2, global) => {
               cell: ({ row: e2 }) => (0, s.jsx)(z, { data: e2.original })
             }
           ];
-        var B = a(95978),
+        var U = a(95978),
           L = a(70715);
         let G = [
           { value: 'male', label: 'Male' },
           { value: 'female', label: 'Female' }
         ];
-        function H({ data: e2, totalData: t2 }) {
+        function W({ data: e2, totalData: t2 }) {
           let {
             genderFilter: a2,
             setGenderFilter: l2,
@@ -4865,15 +4865,15 @@ var stdin_default = ((self, globalThis2, global) => {
           } = (function () {
             let [e3, t3] = (0, L.v1)(
                 'q',
-                B.I4.q
+                U.I4.q
                   .withOptions({ shallow: false, throttleMs: 1e3 })
                   .withDefault('')
               ),
               [a3, s2] = (0, L.v1)(
                 'gender',
-                B.I4.gender.withOptions({ shallow: false }).withDefault('')
+                U.I4.gender.withOptions({ shallow: false }).withDefault('')
               ),
-              [r2, n2] = (0, L.v1)('page', B.I4.page.withDefault(1)),
+              [r2, n2] = (0, L.v1)('page', U.I4.page.withDefault(1)),
               i2 = (0, c.useCallback)(() => {
                 t3(null), s2(null), n2(1);
               }, [t3, s2, n2]),
@@ -4911,7 +4911,7 @@ var stdin_default = ((self, globalThis2, global) => {
                   (0, s.jsx)(i.Y, { isFilterActive: d2, onReset: p2 })
                 ]
               }),
-              (0, s.jsx)(r.DataTable, { columns: U, data: e2, totalItems: t2 })
+              (0, s.jsx)(r.DataTable, { columns: B, data: e2, totalItems: t2 })
             ]
           });
         }
@@ -4992,7 +4992,7 @@ var stdin_default = ((self, globalThis2, global) => {
     (e) => {
       var t = (t2) => e((e.s = t2));
       e.O(0, [269, 197, 716, 548, 230, 733, 379, 363, 210, 755, 857, 771], () =>
-        t(17186)
+        t(90676)
       );
       var a = e.O();
       (globalThis2._ENTRIES =

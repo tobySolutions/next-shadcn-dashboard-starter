@@ -516,7 +516,7 @@ var stdin_default = ((self, globalThis2, global) => {
             '174',
             'static/chunks/174-a9cc57459f0c4a6c.js',
             '931',
-            'static/chunks/app/(auth)/(signin)/page-10d08de474955181.js'
+            'static/chunks/app/(auth)/(signin)/page-b84ddde1602c7053.js'
           ],
           async: false
         },
@@ -666,10 +666,8 @@ var stdin_default = ((self, globalThis2, global) => {
           ],
           async: false
         },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/kanban/_components/kanban-board.tsx':
-        { id: 23494, name: '*', chunks: [], async: false },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/kanban/_components/new-task-dialog.tsx':
-        { id: 10854, name: '*', chunks: [], async: false },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/employee/_components/employee-form.tsx':
+        { id: 35615, name: '*', chunks: [], async: false },
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/components/ui/scroll-area.tsx':
         {
           id: 94880,
@@ -902,6 +900,14 @@ var stdin_default = ((self, globalThis2, global) => {
           ],
           async: false
         },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/kanban/_components/kanban-board.tsx':
+        { id: 23494, name: '*', chunks: [], async: false },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/kanban/_components/new-task-dialog.tsx':
+        { id: 10854, name: '*', chunks: [], async: false },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/product/_components/product-form.tsx':
+        { id: 34332, name: '*', chunks: [], async: false },
+      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/profile/_components/profile-create-form.tsx':
+        { id: 39589, name: '*', chunks: [], async: false },
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/overview/_components/area-graph.tsx':
         { id: 87621, name: '*', chunks: [], async: false },
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/overview/_components/bar-graph.tsx':
@@ -916,10 +922,6 @@ var stdin_default = ((self, globalThis2, global) => {
         { id: 85273, name: '*', chunks: [], async: false },
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/employee/_components/employee-tables/index.tsx':
         { id: 49221, name: '*', chunks: [], async: false },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/profile/_components/profile-create-form.tsx':
-        { id: 39589, name: '*', chunks: [], async: false },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/product/_components/product-form.tsx':
-        { id: 34332, name: '*', chunks: [], async: false },
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/product/_components/product-tables/columns.tsx':
         {
           id: 3846,
@@ -1015,9 +1017,7 @@ var stdin_default = ((self, globalThis2, global) => {
             'static/chunks/app/dashboard/product/page-f73d87e1c9d8c539.js'
           ],
           async: false
-        },
-      '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/app/dashboard/employee/_components/employee-form.tsx':
-        { id: 35615, name: '*', chunks: [], async: false }
+        }
     },
     entryCSSFiles: {
       '/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/': [],
@@ -4291,7 +4291,7 @@ var stdin_default = ((self, globalThis2, global) => {
     {
       2067: __chunk_2067,
       26195: __chunk_26195,
-      91957: (e, s, a) => {
+      6479: (e, s, a) => {
         'use strict';
         a.r(s), a.d(s, { ComponentMod: () => E, default: () => A });
         var t,
@@ -4422,20 +4422,20 @@ var stdin_default = ((self, globalThis2, global) => {
           w = self.__BUILD_MANIFEST,
           N = v(self.__PRERENDER_MANIFEST),
           P = v(self.__REACT_LOADABLE_MANIFEST),
-          S =
+          _ =
             null == (t = self.__RSC_MANIFEST)
               ? void 0
               : t['/dashboard/product/page'],
-          _ = v(self.__RSC_SERVER_MANIFEST),
+          S = v(self.__RSC_SERVER_MANIFEST),
           T = v(self.__NEXT_FONT_MANIFEST),
           k = v(self.__INTERCEPTION_ROUTE_REWRITE_MANIFEST) ?? [];
-        S &&
-          _ &&
+        _ &&
+          S &&
           (0, j.Mo)({
-            clientReferenceManifest: S,
-            serverActionsManifest: _,
+            clientReferenceManifest: _,
+            serverActionsManifest: S,
             serverModuleMap: (0, y.w)({
-              serverActionsManifest: _,
+              serverActionsManifest: S,
               pageName: '/dashboard/product/page'
             })
           });
@@ -4452,8 +4452,8 @@ var stdin_default = ((self, globalThis2, global) => {
             prerenderManifest: N,
             renderToHTML: l.f,
             reactLoadableManifest: P,
-            clientReferenceManifest: S,
-            serverActionsManifest: _,
+            clientReferenceManifest: _,
+            serverActionsManifest: S,
             serverActions: void 0,
             subresourceIntegrityManifest: void 0,
             config: {
@@ -4632,7 +4632,7 @@ var stdin_default = ((self, globalThis2, global) => {
               configFileName: 'next.config.js',
               transpilePackages: ['geist']
             },
-            buildId: 'tKSsSaHTcbfG6ibFJxxX0',
+            buildId: 'zJyc5dDhlSh4bJz3AM9bB',
             nextFontManifest: T,
             incrementalCacheHandler: null,
             interceptionRouteRewrites: k
@@ -5069,7 +5069,7 @@ var stdin_default = ((self, globalThis2, global) => {
         let P = (0, N.createProxy)(
             String.raw`/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/components/ui/table/data-table.tsx`
           ),
-          { __esModule: S, $$typeof: _ } = P;
+          { __esModule: _, $$typeof: S } = P;
         P.default;
         let T = (0, N.createProxy)(
             String.raw`/Users/mac/Desktop/next-js-test/next-shadcn-dashboard-starter/components/ui/table/data-table.tsx#DataTable`
@@ -5155,7 +5155,7 @@ var stdin_default = ((self, globalThis2, global) => {
       e.O(
         0,
         [269, 197, 716, 548, 230, 733, 379, 363, 210, 755, 655, 857, 771],
-        () => s(91957)
+        () => s(6479)
       );
       var a = e.O();
       (globalThis2._ENTRIES =
